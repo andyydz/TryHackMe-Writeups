@@ -21,3 +21,9 @@ This room introduced basic Linux commands and how to navigate and manage files u
 
 ##  Key Takeaway
 Understanding basic Linux commands is essential for working in cybersecurity, as most tools and systems use Linux.
+
+## 🔗 Platform
+Room completed on TryHackMe
+
+## 📈 Progress
+This is part of my cybersecurity learning journey.
