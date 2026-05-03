@@ -4,61 +4,39 @@ This repository documents my hands-on learning and writeups from TryHackMe as I 
 
 ---
 
-## Overview
-
-* Focused on understanding core cybersecurity concepts through practical labs
-* Covering topics such as Linux, Windows, networking, and security operations
-* Emphasis on applying knowledge, not just theory
-
----
-
 ## Topics Covered
 
-* Linux Fundamentals
-* Windows Fundamentals
-* Networking Basics
-* Cybersecurity Fundamentals
-* SOC (Security Operations Center) Basics
+- Linux Fundamentals  
+- Windows Fundamentals  
+- Cybersecurity Basics  
+- SOC (Security Operations Center)
 
 ---
 
-## Skills Gained
+## Repository Structure
 
-* Linux command-line usage
-* Understanding of Windows security features
-* Basic networking concepts
-* Introduction to Active Directory
-* Awareness of security monitoring and logs
+- cybersecurity/ → Fundamental cybersecurity concepts  
+- linux/ → Linux commands and system basics  
+- windows/ → Windows OS and security fundamentals  
+- soc/ → SOC and blue team concepts  
 
 ---
 
-## Progress
+## Skills Being Built
 
-* Completed:
-
-  * Linux Fundamentals
-  * Windows Fundamentals
-  * Introduction to SOC
-
-* In Progress:
-
-  * Log Analysis
-  * SIEM (Splunk Basics)
+- Linux command-line usage  
+- Windows system understanding  
+- Basic networking and security concepts  
+- SOC fundamentals and log analysis  
 
 ---
 
 ## Goal
 
-To become a SOC Analyst with strong practical knowledge in:
-
-* Log analysis
-* Threat detection
-* Incident response
+To become a SOC Analyst and develop strong practical cybersecurity skills through hands-on labs.
 
 ---
 
 ## Platform
 
 TryHackMe
-
----
