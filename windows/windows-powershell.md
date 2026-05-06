@@ -139,3 +139,14 @@ Get-LocalUser
 - Networking commands
 - User management
 - Windows automation basics
+```
+```
+# My Notes
+I initially got confused between get-help and get-commands
+---
+
+# What I Found Intresting
+-Powershell feels much faster for automation compared to CMD
+---
+---
+
