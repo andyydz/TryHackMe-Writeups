@@ -24,6 +24,10 @@ ls
 ls -la
 ls -lh
 ```
+```
+![ls Output](images/ls-output.png)
+
+```
 
 ### Common Options
 - `-l` → long listing format
