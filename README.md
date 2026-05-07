@@ -1,113 +1,199 @@
 <div align="center">
 
-# TryHackMe Writeups
+<img src="https://tryhackme-badges.s3.amazonaws.com/andyydz57.png" alt="TryHackMe Badge" />
 
-<a href="https://tryhackme.com/p/andyydz57">
-  <img src="https://assets.tryhackme.com/room-badges/ef16983226a5a71d9d2b84592958c66c.png" alt="TryHackMe Badge" width="110">
-</a>
+<br/>
 
-<a href="https://tryhackme.com/p/andyydz57">
-  <img src="https://assets.tryhackme.com/room-badges/55620c29c36c0ef4e09b0a32ff8a060e.png" alt="TryHackMe Badge" width="110">
-</a>
+```
+╔══════════════════════════════════════════════════════╗
+║           CYBERSECURITY LEARNING JOURNAL             ║
+║                  TryHackMe Write-ups                 ║
+╚══════════════════════════════════════════════════════╝
+```
 
-<br><br>
+*Documenting the grind — one room at a time.*
 
-Documenting my hands-on cybersecurity learning journey through TryHackMe rooms, labs, and practical exercises.
+<br/>
+
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-andyydz57-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
+[![Rank](https://img.shields.io/badge/Rank-Top%2035%25-1ec261?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
+[![Rooms](https://img.shields.io/badge/Rooms%20Completed-12%2B-blue?style=for-the-badge)](https://tryhackme.com/p/andyydz57)
+[![Streak](https://img.shields.io/badge/Streak-6%20Days%20🔥-orange?style=for-the-badge)](https://tryhackme.com/p/andyydz57)
 
 </div>
 
 ---
 
-## About
+## ` whoami `
 
-This repository contains my personal notes, walkthroughs, and writeups from TryHackMe as I build practical cybersecurity and SOC analyst skills.
-
-The purpose of this repository is to:
-
-- Track my cybersecurity learning progress
-- Practice technical documentation
-- Improve hands-on problem-solving skills
-- Build a professional cybersecurity portfolio
+> I'm Andyy — a student building toward a SOC Analyst role through hands-on cybersecurity labs.
+> This repo isn't a polished portfolio. It's an honest record of my learning journey — the rooms that clicked instantly, the ones that took three attempts, and everything in between.
+>
+> Started because I wanted to *actually understand* how systems work, not just memorize definitions.
 
 ---
 
-## Current Stats
+## `📊 Current Stats`
 
-| Category | Progress |
-|---|---|
-| 🏆 Rank | Top 45% |
-| 🔥 Streak | 5 Days |
-| 📚 Completed Rooms | 9 |
+<div align="center">
 
----
+|  THM Rank |  Badges |   Streak |   Rooms Done |
+|:-----------:|:---------:|:---------:|:-------------:|
+| **Top 35%** | **2** | **6 Days** | **12+** |
 
-## Topics Covered
+<br/>
 
-- Linux Fundamentals
-- Windows Fundamentals
-- Networking Basics
-- Cybersecurity Fundamentals
-- Enumeration Techniques
-- SOC (Security Operations Center)
-- Blue Team Concepts
+<a href="https://tryhackme.com/p/andyydz57">
+  <img src="https://assets.tryhackme.com/room-badges/ef16983226a5a71d9d2b84592958c66c.png" width="90" alt="Badge 1"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://tryhackme.com/p/andyydz57">
+  <img src="https://assets.tryhackme.com/room-badges/55620c29c36c0ef4e09b0a32ff8a060e.png" width="90" alt="Badge 2"/>
+</a>
 
----
-
-## Skills Being Built
-
-- Linux command-line usage
-- Windows system understanding
-- Networking fundamentals
-- Cybersecurity basics
-- SOC analysis
-- Log analysis
-- Enumeration techniques
+</div>
 
 ---
 
-## Repository Structure
+## `🗂️ Repository Structure`
 
-```txt
-cybersecurity/   → Fundamental cybersecurity concepts
-linux/           → Linux commands and Linux fundamentals
-windows/         → Windows OS and security basics
-networking/      → Networking concepts and labs
-soc/             → SOC and blue team concepts
+```
+📁 tryhackme-writeups/
+│
+├──  cybersecurity/        → Fundamentals, ethical hacking, threat concepts
+├──  linux/                → CLI practice, permissions, administration
+├──  windows/              → CMD, PowerShell, Active Directory basics
+├──  network-concepts/     → Protocols, OSI model, practical labs
+└──   soc/                 → Blue team ops, monitoring, incident response
+```
+
+Each room follows this structure:
+```
+room-name/
+├── README.md          ← write-up with notes & methodology
+└── images/
+    └── screenshot.png
 ```
 
 ---
 
-## Example Writeup Structure
+## ` Technical Areas`
 
-### Commands Used
+<details>
+<summary><b> Linux</b></summary>
+<br/>
+
+- Linux Fundamentals & CLI Navigation
+- File Permissions and Ownership
+- Basic Linux System Administration
+- Shell scripting essentials
+
+</details>
+
+<details>
+<summary><b> Windows</b></summary>
+<br/>
+
+- Windows Fundamentals & File System
+- CMD & PowerShell Commands
+- Active Directory Fundamentals
+- Windows Security Basics
+
+</details>
+
+<details>
+<summary><b> Networking</b></summary>
+<br/>
+
+- OSI Model & TCP/IP Stack
+- Packets, Frames, ARP & DHCP
+- Subnetting Basics
+- Ports, Protocols & Network Communication
+- Intro to LAN
+
+</details>
+
+<details>
+<summary><b> Cybersecurity</b></summary>
+<br/>
+
+- Offensive & Defensive Security Fundamentals
+- Ethical Hacking Basics
+- Threat Monitoring Concepts
+- Cybersecurity Career Foundations
+
+</details>
+
+<details>
+<summary><b> SOC & Blue Team</b></summary>
+<br/>
+
+- SOC Fundamentals & Operations Awareness
+- Security Monitoring & Threat Detection
+- Incident Response Basics
+- Blue Team Concepts & Mindset
+
+</details>
+
+---
+
+## ` Example Lab Commands`
 
 ```bash
+# Basic connectivity test
 ping 8.8.8.8
-nmap 10.10.10.10
-```
 
-### Screenshot Structure
+# View network configuration
+ipconfig /all
 
-```txt
-room-name/
-│
-├── README.md
-└── images/
-    └── scan-result.png
+# Trace network path
+tracert 8.8.8.8
+
+# Check active connections
+netstat -ano
 ```
 
 ---
 
-## Goal
+## ` Objective`
 
-My goal is to become a SOC Analyst by continuously improving practical cybersecurity knowledge through hands-on labs and real-world learning.
+```
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│   Goal: SOC Analyst                                         │
+│                                                             │
+│   Path: Continuous hands-on learning → practical labs       │
+│         → write-ups → certifications → real-world skills    │
+│                                                             │
+│   This repo grows as I grow. Come back in 6 months.        │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**What I'm actively building:**
+- ✅ Strong networking & OS security foundations
+- ✅ Practical threat detection & monitoring skills
+- ✅ Technical documentation habits
+- 🔄 Expanding SOC operations knowledge
+- 🔄 Progressing through more advanced THM paths
 
 ---
 
-## Platform
+## `🔗 Find Me`
 
-<p align="left">
-  <a href="https://tryhackme.com/p/andyydz57">
-    🔗 View My TryHackMe Profile
-  </a>
-</p>
+<div align="center">
+
+[![TryHackMe Profile](https://img.shields.io/badge/View%20My%20TryHackMe%20Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
+
+<br/>
+
+*This repository is updated regularly as I complete new rooms and labs.*
+*Last updated: 2025*
+
+</div>
+
+---
+
+<div align="center">
+<sub>Built with curiosity, late nights
+</div>
