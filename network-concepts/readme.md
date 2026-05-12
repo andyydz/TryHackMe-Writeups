@@ -1,6 +1,6 @@
 # Network Concepts
 
-This folder contains my notes and write-ups from networking-related rooms and modules completed on [TryHackMe](https://tryhackme.com?utm_source=chatgpt.com).  
+This folder contains my notes and write-ups from networking-related rooms and modules completed on [TryHackMe](https://tryhackme.com/p/andyydz57).  
 The purpose of these write-ups is to build a strong understanding of networking fundamentals, protocols, web communication, and how devices interact across networks.
 
 Networking is one of the most important foundations in cybersecurity, ethical hacking, and system administration.
@@ -248,7 +248,7 @@ The goal is to improve my understanding while building a structured knowledge ba
 
 # Platform
 
-- [TryHackMe](https://tryhackme.com?utm_source=chatgpt.com)
+- [TryHackMe](https://tryhackme.com/p/andyydz57)
 - Linux / Kali Linux
 - GitHub
 
