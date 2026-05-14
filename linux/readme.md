@@ -1,28 +1,63 @@
 # Linux – TryHackMe Write-ups
 
-This folder contains my Linux-related TryHackMe notes, write-ups, and practical exercises.
+## Introduction
+This folder contains my Linux-related TryHackMe notes, writeups, and practical exercises.
 
-While working through these rooms, I learned basic Linux commands, file navigation, permissions, directory management, and other fundamentals that are important for cybersecurity and SOC Analyst roles.
-
-I’m using these write-ups to document my learning journey, improve my practical understanding, and build a consistent cybersecurity portfolio on GitHub.
+---
 
 ## Topics Covered
 
-- Linux Fundamentals
-- Basic Linux Commands
-- File and Directory Navigation
-- Permissions and Ownership
-- Networking Commands
-- Terminal Usage
-- Practical Exercises from TryHackMe
+### Linux CLI Basics
+#### Concept
+The Linux CLI allows users to interact with the operating system using commands.
 
-## Files Included
+#### Example
+```bash
+ls
+cd
+pwd
+```
 
-- `linux-fundamentals.md`
-- `linux-commands.md`
+#### Real-World Use Case
+System administrators and cybersecurity professionals use Linux terminals daily for server management and security operations.
 
-More write-ups and labs will be added as I continue learning.
+---
 
-## Goal
+### Linux Fundamentals
+#### Concept
+Learned Linux filesystem structure, permissions, and user management.
 
-My goal is to build strong fundamentals in Linux and cybersecurity through hands-on practice and consistent learning.
+#### Example
+```bash
+chmod +x script.sh
+```
+
+#### Real-World Use Case
+File permissions help prevent unauthorized access to sensitive files in enterprise systems.
+
+---
+
+### Package Management
+#### Concept
+Linux distributions use package managers to install and update software.
+
+#### Example
+```bash
+sudo apt install nmap
+```
+
+#### Real-World Use Case
+Security analysts install tools like Wireshark and Nmap for investigations and testing.
+
+---
+
+## Skills Learned
+- Linux command-line usage
+- File management
+- Permissions management
+- Basic scripting concepts
+
+---
+
+## Conclusion
+These writeups improved my Linux knowledge and practical understanding of systems commonly used in cybersecurity.
