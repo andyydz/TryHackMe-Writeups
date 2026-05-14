@@ -4,196 +4,301 @@
 
 <br/>
 
-```
-╔══════════════════════════════════════════════════════╗
-║           CYBERSECURITY LEARNING JOURNAL             ║
-║                  TryHackMe Write-ups                 ║
-╚══════════════════════════════════════════════════════╝
-```
+# CYBERSECURITY LEARNING JOURNAL
+## TryHackMe Write-ups & Notes
 
 *Documenting the grind — one room at a time.*
 
 <br/>
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-andyydz57-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
-[![Rank](https://img.shields.io/badge/Rank-Top%2035%25-1ec261?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
-[![Rooms](https://img.shields.io/badge/Rooms%20Completed-12%2B-blue?style=for-the-badge)](https://tryhackme.com/p/andyydz57)
-[![Streak](https://img.shields.io/badge/Streak-6%20Days%20-orange?style=for-the-badge)](https://tryhackme.com/p/andyydz57)
+[![SOC Path](https://img.shields.io/badge/Goal-SOC%20Analyst-blue?style=for-the-badge)](https://tryhackme.com/p/andyydz57)
+[![Write-ups](https://img.shields.io/badge/Writeups-Updated-success?style=for-the-badge)](https://github.com/)
+[![Learning](https://img.shields.io/badge/Focus-Cybersecurity-red?style=for-the-badge)](https://github.com/)
 
 </div>
 
 ---
 
-## ` whoami `
+# whoami
 
-> I'm Andyy — a student building toward a SOC Analyst role through hands-on cybersecurity labs.
-> This repo isn't a polished portfolio. It's an honest record of my learning journey — the rooms that clicked instantly, the ones that took three attempts, and everything in between.
->
-> Started because I wanted to *actually understand* how systems work, not just memorize definitions.
+I'm Andrew — a BCA student building toward a SOC Analyst role through hands-on cybersecurity labs, networking fundamentals, operating systems, and practical TryHackMe rooms.
 
----
+This repository is my cybersecurity learning journal where I document:
+- Concepts I learn
+- Practical labs
+- Write-ups and notes
+- Real-world cybersecurity topics
+- Linux, Windows, Networking, and SOC fundamentals
 
-## `📊 Current Stats`
+The goal is simple:
 
-<div align="center">
-
-|   THM Rank |   Badges |   Streak |   Rooms Done |
-|:-----------:|:---------:|:---------:|:-------------:|
-| **Top 20%** | **6** | **13 Days** | **40+** |
-
-<br/>
-
-<a href="https://tryhackme.com/p/andyydz57">
-  <img src="https://assets.tryhackme.com/room-badges/ef16983226a5a71d9d2b84592958c66c.png" width="90" alt="Badge 1"/>
-</a>
-&nbsp;&nbsp;
-<a href="https://tryhackme.com/p/andyydz57">
-  <img src="https://assets.tryhackme.com/room-badges/55620c29c36c0ef4e09b0a32ff8a060e.png" width="90" alt="Badge 2"/>
-</a>
-
-</div>
+> Learn by doing.  
+> Understand systems deeply.  
+> Build real-world cybersecurity skills step by step.
 
 ---
 
-## `🗂️ Repository Structure`
+# Current Focus Areas
 
-```
+- SOC Fundamentals
+- Networking Concepts
+- Linux & Windows Administration
+- Threat Detection & Monitoring
+- Active Directory Basics
+- OS Security Concepts
+- Technical Documentation
+- Cybersecurity Fundamentals
+
+---
+
+# Repository Structure
+
+```text
 📁 tryhackme-writeups/
 │
-├── 📁  cybersecurity/        → Fundamentals, ethical hacking, threat concepts
-├── 📁  linux/                → CLI practice, permissions, administration
-├── 📁   windows/              → CMD, PowerShell, Active Directory basics
-├── 📁 network-concepts/     → Protocols, OSI model, practical labs
-└── 📁  soc/                 → Blue team ops, monitoring, incident response
-```
-
-Each room follows this structure:
-```
-room-name/
-├── README.md          ← write-up with notes & methodology
-└── images/
-    └── screenshot.png
+├── 📁 attacks-and-defenses/
+│   ├── CIA Triad
+│   ├── Become a Defender
+│   ├── Become a Hacker
+│   └── Cryptographic Concepts
+│
+├── 📁 os-basics/
+│   ├── OS Introduction
+│   ├── OS Basics
+│   └── OS Security
+│
+├── 📁 linux/
+│   ├── Linux CLI Basics
+│   ├── Linux Fundamentals
+│   ├── Linux Permissions
+│   └── Package Management
+│
+├── 📁 windows/
+│   ├── Windows Fundamentals
+│   ├── CMD Basics
+│   ├── PowerShell
+│   └── Active Directory Basics
+│
+├── 📁 network-concepts/
+│   ├── OSI Model
+│   ├── DNS
+│   ├── HTTP
+│   ├── Packets & Frames
+│   ├── LAN
+│   └── Virtualisation Basics
+│
+├── 📁 software-basics/
+│   ├── Data Representation
+│   ├── Data Encoding
+│   ├── SQL Basics
+│   ├── Python Basics
+│   └── JavaScript Basics
+│
+└── 📁 soc/
+    ├── Log Analysis
+    ├── SIEM Basics
+    ├── Incident Response
+    └── Threat Detection
 ```
 
 ---
 
-## `  Technical Areas`
+# Technical Areas
 
 <details>
-<summary><b>  Linux</b></summary>
+<summary><b>Linux</b></summary>
+
 <br/>
 
 - Linux Fundamentals & CLI Navigation
 - File Permissions and Ownership
-- Basic Linux System Administration
-- Shell scripting essentials
+- User & Process Management
+- Package Management
+- Basic Linux Administration
+- Shell & Terminal Usage
 
 </details>
 
 <details>
-<summary><b>  Windows</b></summary>
+<summary><b>Windows</b></summary>
+
 <br/>
 
-- Windows Fundamentals & File System
+- Windows Fundamentals
 - CMD & PowerShell Commands
-- Active Directory Fundamentals
-- Windows Security Basics
+- Windows Filesystem
+- Active Directory Basics
+- Windows Security Concepts
+- User & Permission Management
 
 </details>
 
 <details>
-<summary><b>  Networking</b></summary>
+<summary><b>Networking</b></summary>
+
 <br/>
 
-- OSI Model & TCP/IP Stack
-- Packets, Frames, ARP & DHCP
-- Subnetting Basics
-- Ports, Protocols & Network Communication
-- Intro to LAN
+- OSI Model & TCP/IP
+- DNS & HTTP
+- Packets and Frames
+- LAN & WAN Concepts
+- Ports & Protocols
+- Virtualisation Basics
+- Routing & Network Communication
 
 </details>
 
 <details>
-<summary><b>  Cybersecurity</b></summary>
+<summary><b>Software Basics</b></summary>
+
 <br/>
 
-- Offensive & Defensive Security Fundamentals
-- Ethical Hacking Basics
-- Threat Monitoring Concepts
-- Cybersecurity Career Foundations
+- Python Basics
+- JavaScript Basics
+- SQL Fundamentals
+- Data Representation
+- Data Encoding
+- Scripting Concepts
 
 </details>
 
 <details>
-<summary><b>  SOC & Blue Team</b></summary>
+<summary><b>Cybersecurity</b></summary>
+
 <br/>
 
-- SOC Fundamentals & Operations Awareness
-- Security Monitoring & Threat Detection
-- Incident Response Basics
-- Blue Team Concepts & Mindset
+- CIA Triad
+- Cryptographic Concepts
+- Offensive Security Basics
+- Defensive Security Basics
+- Threat Monitoring
+- Security Fundamentals
+
+</details>
+
+<details>
+<summary><b>SOC & Blue Team</b></summary>
+
+<br/>
+
+- SOC Fundamentals
+- Log Analysis
+- SIEM Basics
+- Incident Response
+- Threat Detection
+- Blue Team Operations
 
 </details>
 
 ---
 
-## `  Example Lab Commands`
+# Example Commands & Tools
 
 ```bash
-# Basic connectivity test
+# Connectivity test
 ping 8.8.8.8
 
-# View network configuration
+# Network configuration
 ipconfig /all
 
-# Trace network path
-tracert 8.8.8.8
-
-# Check active connections
+# Active network connections
 netstat -ano
+
+# Linux file permissions
+chmod +x script.sh
+
+# View current user
+whoami
 ```
 
 ---
 
-## `  Objective`
+# Skills Being Built
 
-```
+- Networking Fundamentals
+- Operating System Security
+- Linux & Windows Administration
+- Threat Detection
+- SOC Operations Awareness
+- Security Monitoring
+- Technical Documentation
+- Problem Solving
+- Cybersecurity Foundations
+
+---
+
+# Why This Repository Exists
+
+This repository helps me:
+- Track my cybersecurity progress
+- Practice technical documentation
+- Build hands-on experience
+- Create structured notes for revision
+- Develop practical cybersecurity skills
+
+Every room and write-up improves both my technical understanding and documentation skills.
+
+---
+
+# Platforms & Technologies
+
+- TryHackMe
+- Kali Linux
+- Windows
+- VirtualBox
+- Git & GitHub
+- Wireshark
+- PowerShell
+- Linux Terminal
+
+---
+
+# Objective
+
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
 │   Goal: SOC Analyst                                         │
 │                                                             │
-│   Path: Continuous hands-on learning → practical labs       │
-│         → write-ups → certifications → real-world skills    │
+│   Focus Areas:                                              │
+│   → Networking                                               │
+│   → Linux & Windows                                          │
+│   → Threat Detection                                         │
+│   → SOC Operations                                           │
+│   → Blue Team Concepts                                       │
 │                                                             │
-│   This repo grows as I grow. Come back in 6 months.        │
+│   Current Mission:                                           │
+│   Build strong fundamentals before moving into              │
+│   advanced cybersecurity and SOC environments.              │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
-**What I'm actively building:**
-- ✅ Strong networking & OS security foundations
-- ✅ Practical threat detection & monitoring skills
-- ✅ Technical documentation habits
-- 🔄 Expanding SOC operations knowledge
-- 🔄 Progressing through more advanced THM paths
-
 ---
 
-## `🔗 Find Me`
+# Find Me
 
 <div align="center">
 
-[![TryHackMe Profile](https://img.shields.io/badge/View%20My%20TryHackMe%20Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
-
-<br/>
-
-*This repository is updated regularly as I complete new rooms and labs.*
-*Last updated: 2025*
+[![TryHackMe Profile](https://img.shields.io/badge/TryHackMe_Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
 
 </div>
 
 ---
 
+# Disclaimer
+
+These write-ups are created for educational purposes only.
+
+All activities are performed inside legal and controlled lab environments provided by TryHackMe.
+
+---
+
 <div align="center">
-<sub>Built with curiosity, late nights, and a lot of <code>man</code> pages.</sub>
+
+### Andrew D Souza
+
+Cybersecurity Learner | SOC | Networking | Linux | TryHackMe
+
 </div>
