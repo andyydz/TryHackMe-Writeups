@@ -1,63 +1,216 @@
-# Linux – TryHackMe Write-ups
+# Linux
 
-## Introduction
-This folder contains my Linux-related TryHackMe notes, writeups, and practical exercises.
+This folder contains my notes and write-ups from Linux-related rooms and modules completed on [TryHackMe](https://tryhackme.com/p/andyydz57).
+
+The purpose of these write-ups is to build a strong understanding of Linux fundamentals, command-line usage, system administration, and security concepts used in real-world environments.
+
+Linux is one of the most important operating systems in cybersecurity, cloud computing, and server management.
 
 ---
 
-## Topics Covered
+# Topics Covered
 
-### Linux CLI Basics
-#### Concept
-The Linux CLI allows users to interact with the operating system using commands.
+## 1. Linux Introduction
 
-#### Example
+Introduction to the Linux operating system and its basic usage.
+
+### Key Concepts
+- Linux distributions
+- Open-source systems
+- Terminal usage
+- File structure
+
+### Example
+Using Ubuntu or Kali Linux through a terminal interface.
+
+### Real-World Use Cases
+- Servers
+- Cybersecurity labs
+- Cloud infrastructure
+- Development environments
+
+---
+
+## 2. Linux CLI Basics
+
+Learning how to interact with Linux using command-line commands.
+
+### Key Concepts
+- File navigation
+- Directory management
+- Command execution
+- Terminal operations
+
+### Example
 ```bash
 ls
 cd
 pwd
 ```
 
-#### Real-World Use Case
-System administrators and cybersecurity professionals use Linux terminals daily for server management and security operations.
+### Real-World Use Cases
+- Server administration
+- Security investigations
+- File management
+- Remote system management
 
 ---
 
-### Linux Fundamentals
-#### Concept
-Learned Linux filesystem structure, permissions, and user management.
+## 3. Linux Filesystem
 
-#### Example
+Understanding how Linux organizes and stores files.
+
+### Key Concepts
+- Root directory
+- File paths
+- System directories
+- Hidden files
+
+### Example
+```bash
+cd /home/user/Documents
+```
+
+### Real-World Use Cases
+- Managing server files
+- Organizing data
+- Accessing configuration files
+
+---
+
+## 4. Linux Permissions
+
+Learning how Linux controls access to files and directories.
+
+### Key Concepts
+- Read permissions
+- Write permissions
+- Execute permissions
+- Users and groups
+
+### Example
 ```bash
 chmod +x script.sh
 ```
 
-#### Real-World Use Case
-File permissions help prevent unauthorized access to sensitive files in enterprise systems.
+### Real-World Use Cases
+- Preventing unauthorized access
+- Securing sensitive files
+- Managing user privileges
 
 ---
 
-### Package Management
-#### Concept
-Linux distributions use package managers to install and update software.
+## 5. User and Process Management
 
-#### Example
+Understanding how Linux manages users and running processes.
+
+### Key Concepts
+- User accounts
+- Processes
+- Services
+- System monitoring
+
+### Example
+```bash
+whoami
+ps aux
+```
+
+### Real-World Use Cases
+- Monitoring system activity
+- Managing servers
+- Detecting suspicious processes
+
+---
+
+## 6. Package Management
+
+Learning how software is installed and updated in Linux.
+
+### Key Concepts
+- Package managers
+- Repositories
+- Software installation
+- Updates
+
+### Example
 ```bash
 sudo apt install nmap
 ```
 
-#### Real-World Use Case
-Security analysts install tools like Wireshark and Nmap for investigations and testing.
+### Real-World Use Cases
+- Installing cybersecurity tools
+- Updating systems
+- Managing software dependencies
 
 ---
 
-## Skills Learned
+# Skills Learned
+
 - Linux command-line usage
-- File management
-- Permissions management
-- Basic scripting concepts
+- File and directory management
+- User and permission management
+- System administration basics
+- Technical troubleshooting
+- Cybersecurity foundational skills
 
 ---
 
-## Conclusion
-These writeups improved my Linux knowledge and practical understanding of systems commonly used in cybersecurity.
+# Why Linux Matters in Cybersecurity
+
+Linux knowledge is essential for:
+- Penetration testing
+- SOC operations
+- Server administration
+- Security analysis
+- Malware investigations
+- Cloud security
+
+Most cybersecurity tools and servers run on Linux systems.
+
+---
+
+# Tools & Technologies
+
+- Kali Linux
+- Ubuntu
+- VirtualBox
+- Linux Terminal
+- Basic Linux utilities
+
+---
+
+# Repository Purpose
+
+This repository documents my cybersecurity learning journey through:
+- TryHackMe rooms
+- Linux notes
+- Technical concepts
+- Practical examples
+- Hands-on labs
+
+The goal is to improve my understanding while building a structured cybersecurity knowledge base.
+
+---
+
+# Platform
+
+- TryHackMe
+- Linux / Kali Linux
+- GitHub
+
+---
+
+# Disclaimer
+
+These write-ups are created for educational purposes only.
+
+All activities are performed in legal and controlled lab environments provided by TryHackMe.
+
+---
+
+# Author
+
+Andrew D Souza
+
+Cybersecurity Learner | Networking | Linux | TryHackMe
