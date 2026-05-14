@@ -1,6 +1,7 @@
 # Network Concepts
 
-This folder contains my notes and write-ups from networking-related rooms and modules completed on [TryHackMe](https://tryhackme.com/p/andyydz57).  
+This folder contains my notes and write-ups from networking-related rooms and modules completed on [TryHackMe](https://tryhackme.com/p/andyydz57).
+
 The purpose of these write-ups is to build a strong understanding of networking fundamentals, protocols, web communication, and how devices interact across networks.
 
 Networking is one of the most important foundations in cybersecurity, ethical hacking, and system administration.
@@ -21,9 +22,9 @@ Introduction to basic networking concepts and communication between devices.
 - Ports and protocols
 
 ### Example
-- A laptop communicating with a router to access the internet
+A laptop communicating with a router to access the internet.
 
-### Use Cases
+### Real-World Use Cases
 - Internet connectivity
 - Office networks
 - Home Wi-Fi setup
@@ -45,7 +46,7 @@ Understanding the 7-layer OSI networking model.
 7. Application
 
 ### Example
-- HTTP traffic passing through multiple OSI layers before reaching a website
+HTTP traffic passing through multiple OSI layers before reaching a website.
 
 ### Why It Matters
 The OSI model helps security professionals:
@@ -66,9 +67,9 @@ Learning how data travels across networks.
 - Data transmission
 
 ### Example
-- Sending a message from one computer to another through multiple network devices
+Sending a message from one computer to another through multiple network devices.
 
-### Use Cases
+### Real-World Use Cases
 - Packet analysis
 - Wireshark investigations
 - Network troubleshooting
@@ -86,9 +87,9 @@ Understanding how domain names are translated into IP addresses.
 - DNS hierarchy
 
 ### Example
-- Translating `google.com` into its server IP address
+Translating `google.com` into its server IP address.
 
-### Use Cases
+### Real-World Use Cases
 - Website access
 - DNS troubleshooting
 - Security monitoring
@@ -106,9 +107,9 @@ Learning how web communication works.
 - Status codes
 
 ### Example
-- A browser requesting a webpage from a web server
+A browser requesting a webpage from a web server.
 
-### Use Cases
+### Real-World Use Cases
 - Web development
 - Web penetration testing
 - API communication
@@ -120,16 +121,16 @@ Learning how web communication works.
 Understanding the backend process behind websites.
 
 ### Key Concepts
-- Frontend vs backend
+- Frontend vs Backend
 - Servers
 - Databases
 - Hosting
 - Client-server communication
 
 ### Example
-- Logging into a website and retrieving user data from a database
+Logging into a website and retrieving user data from a database.
 
-### Use Cases
+### Real-World Use Cases
 - Web applications
 - Bug bounty hunting
 - Website administration
@@ -147,9 +148,9 @@ Learning how networks grow and connect.
 - VPNs
 
 ### Example
-- Connecting multiple office branches together securely
+Connecting multiple office branches together securely.
 
-### Use Cases
+### Real-World Use Cases
 - Enterprise networking
 - Cloud infrastructure
 - Remote access
@@ -167,9 +168,9 @@ Understanding Local Area Networks.
 - Internal communication
 
 ### Example
-- Devices connected inside a school or office network
+Devices connected inside a school or office network.
 
-### Use Cases
+### Real-World Use Cases
 - Office networking
 - Gaming networks
 - Internal communication systems
@@ -187,16 +188,16 @@ Introduction to virtualization technology.
 - Isolation
 
 ### Example
-- Running Kali Linux inside VirtualBox
+Running Kali Linux inside VirtualBox.
 
-### Use Cases
+### Real-World Use Cases
 - Cybersecurity labs
 - Testing environments
 - Cloud computing
 
 ---
 
-## Skills Learned
+# Skills Learned
 
 - Networking fundamentals
 - Understanding web communication
@@ -248,7 +249,7 @@ The goal is to improve my understanding while building a structured knowledge ba
 
 # Platform
 
-- [TryHackMe](https://tryhackme.com/p/andyydz57)
+- TryHackMe
 - Linux / Kali Linux
 - GitHub
 
@@ -256,7 +257,8 @@ The goal is to improve my understanding while building a structured knowledge ba
 
 # Disclaimer
 
-These write-ups are created for educational purposes only.  
+These write-ups are created for educational purposes only.
+
 All activities are performed in legal and controlled lab environments provided by TryHackMe.
 
 ---
