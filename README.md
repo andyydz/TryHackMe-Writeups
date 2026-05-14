@@ -22,7 +22,7 @@
 
 # whoami
 
-I'm Andrew — a BCA student building toward a SOC Analyst role through hands-on cybersecurity labs, networking fundamentals, operating systems, and practical TryHackMe rooms.
+I'm Andrew | a BCA student building toward a SOC Analyst role through hands-on cybersecurity labs, networking fundamentals, operating systems, and practical TryHackMe rooms.
 
 This repository is my cybersecurity learning journal where I document:
 - Concepts I learn
@@ -262,13 +262,13 @@ Every room and write-up improves both my technical understanding and documentati
 │   Goal: SOC Analyst                                         │
 │                                                             │
 │   Focus Areas:                                              │
-│   → Networking                                               │
-│   → Linux & Windows                                          │
-│   → Threat Detection                                         │
-│   → SOC Operations                                           │
-│   → Blue Team Concepts                                       │
+│   → Networking                                              │
+│   → Linux & Windows                                         │
+│   → Threat Detection                                        │
+│   → SOC Operations                                          │
+│   → Blue Team Concepts                                      │
 │                                                             │
-│   Current Mission:                                           │
+│   Current Mission:                                          │
 │   Build strong fundamentals before moving into              │
 │   advanced cybersecurity and SOC environments.              │
 │                                                             │
