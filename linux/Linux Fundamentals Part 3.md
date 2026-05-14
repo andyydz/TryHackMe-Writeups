@@ -1,231 +1,228 @@
-# Linux Fundamentals Part 3 - TryHackMe Write-up
+# Windows Fundamentals 3 - TryHackMe Write-up
 
 ## Overview
-This room expanded on advanced Linux fundamentals and provided deeper hands-on experience with Linux system administration, package management, process management, automation, and system logging through a virtual machine environment.
+This room focused on advanced Windows security concepts and introduced important defensive security features available in Windows operating systems. The module explored Windows Update, Windows Security, malware protection, firewall configurations, browser protection, device security, BitLocker encryption, and Volume Shadow Copy Service.
 
-The module focused on understanding how Linux systems are maintained, monitored, and managed in enterprise and cybersecurity environments. It also introduced important administrative concepts such as package installation, process monitoring, text editing, automation, and log management.
+The room also included practical exercises within a virtual machine environment to demonstrate how Windows security features help protect systems against threats and unauthorized access.
 
-Linux administration knowledge is highly valuable in cybersecurity because many servers, cloud platforms, SIEM tools, and enterprise systems rely on Linux-based environments.
+Understanding Windows security is essential in cybersecurity because Windows systems are widely used in enterprise environments and are common targets for cyberattacks.
 
 ---
 
 # Topics Covered
-- Introduction to Linux Fundamentals Part 3
-- Deploying a Virtual Machine
-- Terminal Text Editors
-- General/User Utilities
-- Processes 101
-- Maintaining Your System
-- System Automation
-- Package Management
-- Managing System Logs
-- Linux Administration Fundamentals
-- Conclusion and Summary
+- Introduction to Windows Fundamentals 3
+- Windows Update
+- Windows Security
+- Virus & Threat Protection
+- Firewall & Network Protection
+- App & Browser Control
+- Device Security
+- BitLocker Encryption
+- Volume Shadow Copy Service (VSS)
+- Virtual Machine Practical Exercises
+- Defensive Security Concepts
+- Conclusion and Key Takeaways
 
 ---
 
 # What I Learned
-Through this room, I gained practical experience working with Linux administrative tools and learned how Linux systems are maintained, monitored, and managed in enterprise environments.
+Through this room, I gained practical knowledge of Windows security mechanisms and learned how operating systems implement defensive controls to protect systems, applications, and user data.
 
 Some of the major concepts learned include:
-- Working with Linux text editors
-- Understanding Linux processes and system utilities
-- Managing packages and software installations
-- Learning system maintenance concepts
-- Understanding automation basics
-- Exploring Linux system logs
-- Monitoring system behavior and processes
+- Understanding Windows security features
+- Learning how Windows Update improves system security
+- Exploring malware and threat protection mechanisms
+- Understanding firewall and network protection
+- Learning about BitLocker encryption
+- Understanding backup and recovery concepts using VSS
+- Exploring endpoint protection mechanisms
 
-The room also improved my understanding of Linux administration tasks commonly performed in cybersecurity and system management roles.
+The room also improved my understanding of how enterprise Windows systems are secured against cyber threats.
 
 ---
 
 # Hands-on Experience
 
-During the practical exercises, I interacted with a Linux virtual machine and explored administrative and system-level operations.
+During the practical exercises, I interacted with a Windows virtual machine and explored multiple Windows security features and configurations.
 
 ## Practical Activities
-- Editing files using terminal-based editors
-- Monitoring system processes
-- Managing Linux packages
-- Viewing and analyzing system logs
-- Exploring automation concepts
-- Performing system maintenance tasks
+- Exploring Windows Security settings
+- Reviewing virus and threat protection features
+- Understanding firewall configurations
+- Exploring browser and application protection
+- Reviewing BitLocker encryption settings
+- Understanding backup and recovery mechanisms
+- Interacting with defensive security features
 
-This hands-on practice improved my familiarity with Linux administration and system management workflows.
-
----
-
-# Linux Concepts Explored
-
-## Terminal Text Editors
-Linux text editors allow users to create and modify files directly through the terminal.
-
-### Editors Explored
-```text
-nano
-vim
-```
-
-These editors are commonly used for:
-- Editing configuration files
-- Writing scripts
-- Managing system settings
-- Viewing log files
+This hands-on experience improved my familiarity with Windows endpoint security and system protection mechanisms.
 
 ---
 
-## General/User Utilities
-Linux provides several utilities for interacting with systems and users.
+# Windows Security Concepts Explored
 
-### Example Commands
+## Windows Update
+Windows Update helps maintain system security by installing:
+- Security patches
+- Bug fixes
+- Feature updates
+- Vulnerability fixes
 
-```bash
-echo
-whoami
-history
-clear
-```
-
-These utilities help users:
-- Interact with the shell
-- Review command history
-- Display system information
-- Improve workflow efficiency
+Regular updates help reduce exposure to known security vulnerabilities.
 
 ---
 
-## Processes 101
-Processes represent running tasks and applications inside Linux systems.
+## Virus & Threat Protection
+Windows Security includes built-in antivirus and malware protection features.
 
-### Example Commands
+### Security Functions
+- Malware detection
+- Threat scanning
+- Real-time protection
+- Security alerts
+- Endpoint protection
 
-```bash
-ps
-top
-kill
-```
-
-These commands help users:
-- Monitor running processes
-- Analyze system performance
-- Manage applications
-- Stop unwanted processes
-
-Understanding processes is important in system administration and threat investigations.
+These protections help defend systems against malicious software and suspicious activity.
 
 ---
 
-## Package Management
-Package managers help install, update, and manage software on Linux systems.
+## Firewall & Network Protection
+Windows Firewall helps monitor and control incoming and outgoing network traffic.
 
-### Example Commands
+### Example Functions
+- Blocking unauthorized connections
+- Monitoring network activity
+- Reducing attack exposure
+- Protecting endpoints from network-based threats
 
-```bash
-sudo apt update
-sudo apt install
-```
-
-Package management is essential for:
-- Installing software
-- Applying security updates
-- Maintaining system stability
-- Managing dependencies
+Firewalls are essential components of defensive security.
 
 ---
 
-## System Logs
-Linux systems store important activity and event information inside log files.
+## App & Browser Control
+This feature helps protect users against:
+- Malicious applications
+- Unsafe downloads
+- Phishing websites
+- Suspicious browser activity
 
-### Common Log Locations
-
-```text
-/var/log
-```
-
-Logs help administrators and security analysts:
-- Monitor system activity
-- Troubleshoot issues
-- Investigate suspicious behavior
-- Detect security incidents
+Browser protection improves overall endpoint security.
 
 ---
 
-# Access Services & System Administration
+## Device Security
+Device security features help protect hardware and system integrity.
 
-This room introduced administrative concepts related to maintaining Linux environments securely and efficiently.
+### Security Features
+- Secure Boot
+- Hardware-based protections
+- System integrity checks
+- Trusted Platform Module (TPM)
+
+These protections reduce the risk of low-level system compromise.
+
+---
+
+## BitLocker
+BitLocker is a Windows encryption feature used to protect data stored on drives.
+
+### Example Benefits
+- Prevents unauthorized data access
+- Protects lost or stolen devices
+- Secures sensitive enterprise information
+
+Encryption improves data confidentiality and endpoint protection.
+
+---
+
+## Volume Shadow Copy Service (VSS)
+VSS helps create backup snapshots of files and systems.
+
+### Example Uses
+- File recovery
+- System restoration
+- Backup management
+- Disaster recovery
+
+VSS supports business continuity and recovery operations.
+
+---
+
+# Access Services & Endpoint Protection
+
+This room demonstrated how Windows systems use layered security mechanisms to protect endpoints and users.
 
 ## Access Services Involved
-- Terminal-based administration
-- Process management
-- Software/package management
-- User utilities
-- System monitoring
-- Log management
+- Authentication systems
+- Endpoint protection mechanisms
+- Firewall services
+- Encryption services
+- Backup and recovery systems
+- Application control features
 
-These services are essential in enterprise system administration and cybersecurity operations.
+These services help organizations maintain secure and resilient environments.
 
 ---
 
 # SOC & Cybersecurity Applications
 
-Linux administration knowledge is highly valuable in cybersecurity because many enterprise security platforms and monitoring systems run on Linux.
+Windows security knowledge is highly important in Security Operations Centers (SOC) because analysts regularly monitor and investigate Windows endpoints.
 
 ## SOC Analyst Applications
-Linux skills help SOC Analysts:
-- Review system logs
-- Investigate suspicious processes
-- Monitor endpoint activity
-- Analyze unauthorized system behavior
-- Investigate compromised Linux systems
+Windows security skills help SOC Analysts:
+- Investigate malware alerts
+- Review firewall events
+- Analyze endpoint security logs
+- Monitor suspicious activity
+- Detect unauthorized changes
+- Investigate security incidents
 
 ### Example
 A SOC Analyst may investigate:
-- Suspicious running processes
-- Unauthorized software installations
-- Abnormal log entries
-- Privilege escalation attempts
-- Malicious scripts or automation tasks
+- Malware detections
+- Suspicious firewall activity
+- Unauthorized application execution
+- Disabled security protections
+- Encryption-related alerts
 
 ---
 
 # Threat Investigation Applications
 
-Linux administrative knowledge supports incident response and threat investigations.
+Windows security concepts support incident response and threat investigations.
 
 ## Threat Investigation Tasks
 Security professionals may:
-- Analyze Linux logs
-- Monitor active processes
-- Investigate suspicious services
-- Review package installations
-- Detect malicious persistence mechanisms
+- Analyze endpoint alerts
+- Review security logs
+- Investigate malware infections
+- Examine firewall activity
+- Identify suspicious processes
+- Review recovery and backup data
 
-### Example Commands
-
-```bash
-ps
-top
-cat /var/log/auth.log
-```
-
-These commands help analysts identify suspicious activity during investigations.
+### Example
+Indicators of suspicious activity may include:
+- Disabled antivirus protection
+- Unauthorized firewall rule changes
+- Unexpected application behavior
+- Failed security updates
+- Ransomware-related encryption activity
 
 ---
 
 # System & Enterprise Applications
 
-Linux administration is widely used in enterprise infrastructure and cloud environments.
+Windows security features are widely used across enterprise environments to improve endpoint protection and operational security.
 
 ## Real-world Applications
-- Server administration
-- Security monitoring
-- Cloud infrastructure
-- System maintenance
-- DevOps environments
-- SIEM platforms
+- Endpoint security
+- Enterprise device management
+- Threat prevention
+- Incident response
+- Backup and recovery
+- Data protection
+- Security compliance
 
-Linux skills are valuable across multiple cybersecurity and IT roles.
+These security mechanisms help organizations reduce risks and maintain secure operations.
 
 ---
 
@@ -234,28 +231,28 @@ Linux skills are valuable across multiple cybersecurity and IT roles.
 This room helped strengthen foundational skills relevant to:
 - SOC Analyst
 - Cybersecurity Analyst
-- Linux Administrator
 - Blue Team Operations
+- Endpoint Security
 - System Administration
 - Security Operations
 
 ## Technical Skills Developed
-- Linux administration fundamentals
-- Process management
-- Package management
-- Log analysis basics
-- System maintenance
-- Terminal text editing
-- Troubleshooting fundamentals
+- Windows security awareness
+- Malware protection understanding
+- Firewall configuration basics
+- Encryption fundamentals
+- Endpoint protection concepts
+- Backup and recovery awareness
+- Defensive security thinking
 
 ---
 
 # Key Takeaways
-- Linux administration is important in enterprise environments
-- System logs help detect suspicious activity
-- Process monitoring supports incident investigations
-- Package management helps maintain secure systems
-- Linux skills are highly valuable in cybersecurity careers
+- Windows security features play a major role in endpoint protection
+- Firewalls and antivirus solutions help defend systems from threats
+- Encryption improves data confidentiality and protection
+- System updates reduce exposure to vulnerabilities
+- Understanding Windows security supports SOC and defensive security roles
 
 ---
 
@@ -263,7 +260,7 @@ This room helped strengthen foundational skills relevant to:
 TryHackMe
 
 # Room
-Linux Fundamentals Part 3
+Windows Fundamentals 3
 
 # Status
 Completed Successfully
