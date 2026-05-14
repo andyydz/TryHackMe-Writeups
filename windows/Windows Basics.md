@@ -1,133 +1,105 @@
-# Windows Basics | TryHackMe Write-up
+# Windows Basics - TryHackMe Write-up
 
 ## Overview
-
-This room introduced the fundamentals of the Windows operating system and provided hands-on experience with navigating, configuring, and securing a Windows environment. The module focused on understanding the Windows workspace, basic system configurations, and essential security practices commonly used in real-world environments.
-
----
-
-# Topics Covered
-
-* Introduction to Windows Basics
-* Exploring the Windows Workspace
-* Configuring Windows Settings
-* Securing a Windows System
-* Operating System Fundamentals
-* Conclusion and Key Takeaways
+This room introduced the fundamentals of the Windows operating system and provided hands-on experience with navigating, configuring, and securing a Windows environment. The module focused on understanding the Windows workspace, system settings, and basic security practices commonly used in enterprise environments.
 
 ---
 
-# What I Learned
-
-Through this module, I gained a better understanding of how Windows operating systems function in enterprise and cybersecurity environments.
-
-Some of the key concepts learned include:
-
-* Navigating the Windows desktop and file system
-* Understanding system settings and configurations
-* Managing basic Windows security features
-* Learning how operating systems interact with hardware and software
-* Recognizing the importance of endpoint security
-
-I also explored how Windows environments are commonly used in organizations and why understanding them is important for cybersecurity professionals.
+## Topics Covered
+- Introduction to Windows Basics
+- Exploring the Windows Workspace
+- Configuring Windows Settings
+- Securing a Windows System
+- Operating System Fundamentals
+- Conclusion and Key Takeaways
 
 ---
 
-# Hands-on Experience
+## What I Learned
+Through this module, I developed a better understanding of how Windows systems operate in both IT and cybersecurity environments.
 
-During the practical exercises, I interacted with a virtual Windows machine and explored different areas of the operating system, including:
+Some of the key concepts I learned include:
+- Navigating the Windows desktop and file system
+- Understanding system settings and configurations
+- Learning basic Windows security practices
+- Exploring how operating systems manage resources and applications
+- Understanding the importance of endpoint security
 
-* File Explorer
-* Windows Settings
-* Security configurations
-* System navigation
-* Basic administrative tasks
-
-This hands-on practice improved my familiarity with Windows environments used in professional workplaces.
+The hands-on exercises also helped me become more comfortable working in Windows environments commonly used in organizations.
 
 ---
 
-# SOC & Cybersecurity Use Cases
+## Hands-on Experience
+During the practical exercises, I interacted with a virtual Windows machine and explored:
+- File Explorer
+- Windows Settings
+- Security configurations
+- Basic administrative tasks
+- System navigation
 
-Understanding Windows systems is essential in Security Operations Center (SOC) roles because most enterprise environments rely heavily on Windows-based infrastructure.
+This practical exposure improved my familiarity with Windows systems used in professional environments.
 
-## Real-world SOC Applications
+---
 
-### Log Analysis
+## SOC & Cybersecurity Applications
 
-SOC analysts often monitor Windows Event Logs to identify:
+Understanding Windows is important in cybersecurity because most enterprise systems rely heavily on Windows-based infrastructure.
 
-* Failed login attempts
-* Unauthorized access
-* Suspicious activity
-* Malware behavior
-
-### Endpoint Security
-
-Windows security configurations help protect systems from:
-
-* Malware infections
-* Unauthorized users
-* Misconfigured services
-* Security vulnerabilities
+### SOC Analyst Use Cases
+A SOC Analyst may use Windows knowledge for:
+- Monitoring Windows Event Logs
+- Detecting failed login attempts
+- Investigating suspicious user activity
+- Identifying malware-related behavior
+- Reviewing endpoint security alerts
 
 ### Incident Response
+Windows fundamentals are useful during:
+- Security investigations
+- Log analysis
+- User activity tracking
+- Threat detection
+- System auditing
 
-During investigations, analysts may examine:
-
-* User activity
-* Running processes
-* Security alerts
-* System configurations
-
-### Threat Detection
-
-Knowledge of Windows helps analysts identify:
-
-* Abnormal system behavior
-* Persistence techniques
-* Suspicious PowerShell activity
-* Privilege escalation attempts
+### Endpoint Security
+Proper Windows configuration helps reduce risks related to:
+- Malware infections
+- Unauthorized access
+- Weak security settings
+- Misconfigured services
 
 ---
 
-# Job-Oriented Skills Gained
+## Job-Oriented Skills Gained
+This module helped strengthen foundational skills relevant to:
+- SOC Analyst
+- Cybersecurity Analyst
+- IT Support
+- Blue Team Operations
+- System Administration
 
-This module helped build foundational skills relevant to:
-
-* SOC Analyst
-* Cybersecurity Analyst
-* IT Support
-* Blue Team Operations
-* System Administration
-
-## Practical Skills Learned
-
-* Basic Windows administration
-* System navigation
-* Security awareness
-* Operating system fundamentals
-* Understanding enterprise endpoints
+### Practical Skills Developed
+- Basic Windows administration
+- Security awareness
+- System configuration
+- Operating system fundamentals
+- Endpoint security understanding
 
 ---
 
-# Key Takeaways
-
-* Windows knowledge is essential in cybersecurity careers
-* Endpoint security plays a major role in defense
-* System configuration impacts overall security posture
-* Understanding operating systems helps in threat detection and incident analysis
+## Key Takeaways
+- Windows knowledge is essential in cybersecurity careers
+- Endpoint security plays a major role in defensive security
+- System configurations directly impact security posture
+- Understanding operating systems helps in threat detection and analysis
 
 ---
 
-# Platform
-
+## Platform
 TryHackMe
 
-# Module
-
+## Module
 Operating System Basics – Windows Basics
 
-# Status
-
+## Status
 Completed Successfully
