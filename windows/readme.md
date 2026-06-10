@@ -63,6 +63,7 @@ Learning how to interact with Windows using Command Prompt (CMD).
 - System information
 
 ### Example
+
 ```cmd
 ipconfig
 tasklist
@@ -87,6 +88,7 @@ Introduction to PowerShell scripting and automation.
 - System management
 
 ### Example
+
 ```powershell
 Get-Process
 ```
@@ -110,7 +112,7 @@ Understanding how Windows stores and manages files.
 - Hidden files
 
 ### Example
-Accessing files inside:
+
 ```text
 C:\Windows\System32
 ```
@@ -144,13 +146,74 @@ Creating and managing domain user accounts.
 
 ---
 
+## 7. Windows Command Line
+
+Developing practical command-line skills using CMD within a Windows Virtual Machine.
+
+### Key Concepts
+- System information gathering
+- Network troubleshooting
+- File management
+- Disk management
+- Process management
+
+### Example
+
+```cmd
+systeminfo
+ping google.com
+tasklist
+```
+
+### Real-World Use Cases
+- Incident response
+- System administration
+- Troubleshooting
+- Security investigations
+
+---
+
+## 8. Windows PowerShell
+
+Learning advanced Windows administration and automation using PowerShell.
+
+### Key Concepts
+- PowerShell cmdlets
+- File system navigation
+- Piping and filtering
+- System information gathering
+- Network analysis
+- Real-time system monitoring
+- PowerShell scripting
+
+### Example
+
+```powershell
+Get-Process
+Get-Service
+Get-ComputerInfo
+```
+
+### Real-World Use Cases
+- Security automation
+- Threat hunting
+- Blue Team operations
+- Windows administration
+- Incident response
+
+---
+
 # Skills Learned
 
 - Windows administration
 - Command-line usage
 - PowerShell basics
+- PowerShell scripting
 - Active Directory understanding
 - File system management
+- Process monitoring
+- Network troubleshooting
+- System information gathering
 - Technical troubleshooting
 - Security fundamentals
 
@@ -177,6 +240,8 @@ Most organizations use Windows environments, making Windows security knowledge h
 - CMD
 - Active Directory
 - Event Viewer
+- Windows Virtual Machines
+- System Monitoring Tools
 - VirtualBox
 
 ---
