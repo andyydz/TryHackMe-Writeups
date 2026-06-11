@@ -52,6 +52,33 @@ The goal is simple:
 
 ---
 
+# 📋 Completed Rooms
+
+| Room Name | Category | Difficulty | Date |
+|-----------|----------|------------|------|
+| Linux Fundamentals Part 1 | Linux | Easy | May 2026 |
+| Linux Fundamentals Part 2 | Linux | Easy | May 2026 |
+| Linux Fundamentals Part 3 | Linux | Easy | May 2026 |
+| Linux CLI Basics | Linux | Easy | May 2026 |
+| Linux Shell | Linux | Easy | May 2026 |
+| Windows Fundamentals 1 | Windows | Easy | May 2026 |
+| Windows Fundamentals 2 | Windows | Easy | May 2026 |
+| Windows CLI Basics | Windows | Easy | May 2026 |
+| Windows Command Line | Windows | Easy | May 2026 |
+| Active Directory Basics | Windows | Easy | May 2026 |
+| How Websites Work | Networking | Easy | May 2026 |
+| DNS in Detail | Networking | Easy | May 2026 |
+| HTTP in Detail | Networking | Easy | May 2026 |
+| Intro to LAN | Networking | Easy | May 2026 |
+| OSI Model | Networking | Easy | May 2026 |
+| Networking Core Protocols | Networking | Easy | May 2026 |
+| Networking Secure Protocols | Networking | Easy | May 2026 |
+| Defensive Security Intro | SOC/Blue Team | Easy | May 2026 |
+| Operating System Security | SOC/Blue Team | Easy | May 2026 |
+| Become a Defender | SOC/Blue Team | Easy | May 2026 |
+
+---
+
 # Repository Structure
 
 ```text
@@ -282,6 +309,8 @@ Every room and write-up improves both my technical understanding and documentati
 <div align="center">
 
 [![TryHackMe Profile](https://img.shields.io/badge/TryHackMe_Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/andyydz57)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Andrew%20Vinston%20D%27Souza-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-vinston-d-souza-41699330a/)
+
 
 </div>
 
