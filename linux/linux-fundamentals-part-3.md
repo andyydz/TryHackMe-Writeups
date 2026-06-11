@@ -107,6 +107,8 @@ kill
 ```
 ![Process Monitor](screenshorts/linux-process-monitor.png)
 
+![Process Monitoring HTOP](screenshorts/linux-process-monitoring-htop.png)
+
 These commands help users:
 - Monitor running processes
 - Analyze system performance
