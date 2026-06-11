@@ -30,7 +30,9 @@ This write-up summarizes my hands-on learning from the *Linux Fundamentals* room
 - `cd` → Change directory  
 - `pwd` → Show current directory  
 - `mkdir` → Create directory  
-- `rm` → Remove files/directories  
+- `rm` → Remove files/directories
+
+  ![File Operations](screenshorts/linux-file-operations.png)
 
 ---
 
@@ -57,7 +59,9 @@ Permissions:
 ### User Management
 
 - `whoami` → Current user  
-- `sudo` → Execute commands as superuser  
+- `sudo` → Execute commands as superuser
+
+  ![Su Root](screenshorts/linux-su-root.png)
 
 ---
 
