@@ -111,6 +111,7 @@ These commands help users:
 - Locate important data
 - Manage directories
 
+![Network Connections](screenshorts/linux-network-connections.png)
 ---
 
 ## Permissions 101
