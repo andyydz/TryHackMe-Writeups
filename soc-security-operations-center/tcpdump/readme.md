@@ -86,6 +86,29 @@ Most servers don't have a GUI. If you're SSH'd into a Linux box during an incide
 
 ---
 
+## 🔍 Key Findings & Tasks
+
+- Captured live packets on a virtual machine interface and read them in real time
+- Successfully filtered DNS traffic on port 53 and identified query domains
+- Confirmed DNS queries are transmitted in plaintext — no decryption needed
+- Used `-XX` flag to inspect raw hex and ASCII payload of captured packets
+- Identified the MAC address of a host by capturing ARP requests using `-e`
+- Applied advanced binary filter `tcp[13] & 2 != 0` to isolate only SYN packets
+- Saved packet capture to a `.pcap` file and re-read it using `-r`
+
+---
+
+##  What I Learned
+
+- TCPdump is the primary packet capture tool in environments without a GUI — SSH'd into a server during an incident, this is what you reach for
+- DNS is plaintext by default — anyone on the same network can see every domain you're querying
+- The `-e` flag unlocks link-layer info like MAC addresses — critical for identifying devices during a LAN-based investigation
+- BPF binary filters are powerful once you understand TCP header byte structure — byte 13 holds the TCP flags
+- Saving captures with `-w` is a good habit — in real SOC work, you always preserve evidence before analyzing it
+- TCPdump and Wireshark are complementary — TCPdump captures on the server, Wireshark analyzes offline
+
+---
+
 ## SOC Analyst Relevance
 
 | Skill Practiced | SOC Application |
