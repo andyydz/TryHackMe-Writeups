@@ -1,4 +1,4 @@
-# Cryptography: Basics & Public Key Cryptography — SOC Lab Writeup
+# Cryptography
 
 
 
