@@ -52,7 +52,7 @@ The goal is simple:
 
 ---
 
-# 📋 Completed Rooms
+#  Completed Rooms
 
 | Room Name | Category | Difficulty | Date |
 |-----------|----------|------------|------|
