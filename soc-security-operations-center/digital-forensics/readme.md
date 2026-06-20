@@ -1,4 +1,4 @@
-# 🔍 Digital Forensics Fundamentals
+#  Digital Forensics Fundamentals
 
 
 
@@ -12,7 +12,7 @@
 A hands-on introduction to digital forensics — covering investigation methodology, forensic specialties, evidence handling, and a practical metadata-recovery case investigating a missing cat using PDF and EXIF analysis.
 
 
-📄 **Full Writeup:** [digital-forensics-fundamentals.md](./digital-forensics-fundamentals.md)
+ **Full Writeup:** [digital-forensics-fundamentals.md](./digital-forensics-fundamentals.md)
 
 ## Skills Covered
 
@@ -29,4 +29,4 @@ A hands-on introduction to digital forensics — covering investigation methodol
 Every forensic discipline reduces to the same four-stage methodology applied to a different evidence type — and metadata (PDF info, EXIF data) is often the fastest path to cracking a case.
 
 ---
-⬅️ Back to [TryHackMe Writeups](https://github.com/andyydz/TryHackMe-Writeups)
+ Back to [TryHackMe Writeups](https://github.com/andyydz/TryHackMe-Writeups)
