@@ -69,11 +69,35 @@ Rule logic: if logs source is Windows Event Log and Event ID matches log-clearin
 Rule logic: detects execution of `whoami` following a potential exploitation event — a common attacker behaviour to confirm privilege level after gaining access.
 
 ### Lab — Suspicious Activity Investigation
+
+
+
+![SIEM Dashboard Overview](screenshots/01-siem-dashboard-overview.png)
+
+
+*SIEM dashboard showing incoming alerts and event overview*
+
 Worked through a real SIEM dashboard to investigate a triggered alert:
 - Identified **what caused the alert** and **which website** was involved
 - Located the **specific event** that triggered the detection rule
+
+
+
+![Alert Investigation](screenshots/02-alert-investigation.png)
+
+
+*Drilling into the triggered alert to identify the responsible user and process*
+
 - Identified the **user responsible** for the suspicious process execution — confirmed as **Crease**
 - Determined the **hostname** of the suspect user's machine
+
+
+
+![Suspicious Activity Analysis](screenshots/03-suspicious-activity-analysis.png)
+
+
+*Confirming the alert as a true positive and retrieving the flag*
+
 - Confirmed the alert was a **true positive**
 - Retrieved the **flag**
 
@@ -105,4 +129,4 @@ Worked through a real SIEM dashboard to investigate a triggered alert:
 
 ---
 
-*Part of my [TryHackMe Writeups](https://github.com/andyydz/TryHackMe-Writeups) portfolio — documenting my SOic analyst journey.*
+*Part of my [TryHackMe Writeups](https://github.com/andyydz/TryHackMe-Writeups) portfolio — documenting my SOC analyst journey.*
