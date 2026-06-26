@@ -34,13 +34,42 @@ This room introduces Hydra, a fast and flexible online password cracking tool. U
 Deployed the TryHackMe AttackBox and started the target lab machine. Confirmed both the AttackBox IP and target machine IP from the Active Machines panel before running any commands.
 
 ### Brute Forcing the Web Login (Flag 1)
+
+
+
+![Hydra Login Page](screenshots/01-hydra-login-page.png)
+
+
+*Target web login page — the form we are brute forcing with Hydra*
+
 Used Hydra to brute force molly's web password via HTTP POST form:
 
 ```bash
 hydra -l molly -P /usr/share/wordlists/rockyou.txt 10.10.x.x http-post-form "/login:username=^USER^&password=^PASS^:F=incorrect" -V
 ```
 
-Hydra cracked the password as `sunshine` within seconds. Logged into the web application via Firefox using the cracked credentials and retrieved Flag 1.
+
+
+![HTTP POST Form Command](screenshots/03-http-post-form-command.png)
+
+
+*Hydra running the HTTP POST form brute force attack against the target*
+
+
+
+![HTTP Password Found](screenshots/04-http-password-found.png)
+
+
+*Hydra successfully cracked molly's web password as `sunshine`*
+
+Logged into the web application via Firefox using the cracked credentials and retrieved Flag 1.
+
+
+
+![Web Login Success](screenshots/02-web-login-success.png)
+
+
+*Successfully logged in as molly — Flag 1 retrieved*
 
 > Flag 1: `THM{2673a7dd116de60e85c48ec0b1f2612e}`
 
@@ -50,6 +79,13 @@ Used Hydra to brute force molly's SSH password:
 ```bash
 hydra -l molly -P /usr/share/wordlists/rockyou.txt 10.10.x.x -t 4 ssh
 ```
+
+
+
+![SSH Password Found](screenshots/05-ssh-password-found.png)
+
+
+*Hydra cracking molly's SSH password successfully*
 
 Once cracked, SSH'd into the target machine:
 
